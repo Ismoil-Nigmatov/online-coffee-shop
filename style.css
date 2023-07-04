@@ -100,7 +100,7 @@ a{
     max-height: 58px;
     position: relative;
     top: -85px;
-    left: 395px;
+    left: 360px;
 }
 
 .hero-description{
@@ -252,6 +252,10 @@ a{
     min-height: 540px;
 }
 
+.explore-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
 .list-item-heading{
     color: #1B1B1D;
     font-size: 36px;
@@ -358,8 +362,11 @@ a{
 
 .order-img1{
     position: absolute;
-    top: 2900px;
-    right: 0px;
+    right: 0px
+}
+
+.order-img{
+    max-width: 700px;
 }
 
 /*====================================================================================================================*/
@@ -450,8 +457,7 @@ a{
 
 .best-selling-img1{
     position: absolute;
-    top: 3400px;
-    left: 100px;
+    top: 3325px;
 }
 
 .list-item-description{
@@ -463,12 +469,12 @@ a{
 
 .best-selling-img2{
     position: absolute;
-    top: 3400px;
+    top: 3325px;
 }
 
 .best-selling-img3{
     position: absolute;
-    top: 3400px;
+    top: 3325px;
 }
 
 .item-price-order{
@@ -512,13 +518,17 @@ a{
     max-height: 800px;
 }
 
+.content{
+    position: relative;
+    left: -40px;
+}
+
 .instant-heading{
     color: #1B1B1D;
     font-size: 64px;
     font-family: Jost;
     font-weight: 800;
     line-height: 70px;
-    margin-left: 139px;
     margin-top: 376px;
     margin-right: 110px;
 }
@@ -528,37 +538,36 @@ a{
     font-size: 24px;
     font-family: Jost;
     max-width: 512px;
-    margin-left: 139px;
     margin-right: 110px;
 }
 
 .download-btn{
-    margin-left: 139px;
     padding: 25px 40px;
 }
 
 .content-ellipse{
-    position: absolute;
-    margin-top: 300px;
-    margin-left: 96px;
+    position: relative;
+    right: -550px;
+    top: -850px;
 }
 
 .content-mobile-img1{
     position: relative;
     transform: rotate(-15deg);
-    top: 170px;
-    right: -100px;
+    right: 40px;
+    top: -580px;
 }
 
 .content-mobile-img2{
     position: relative;
-    top: -680px;
-    right: -210px;
+    top: -1430px;
+    right: -670px;
 }
 
 .instant-img{
-    margin-top: 72px;
     position: absolute;
+    top: 3950px;
+    left: 0px;
 }
 
 /*====================================================================================================================*/
@@ -567,6 +576,7 @@ a{
 .customer-img{
     position: absolute;
     top: 4700px;
+    left: 0px;
 }
 
 .section-customers-container{
@@ -589,7 +599,7 @@ a{
 
 .qaz {
     position: relative;
-    left: -180px;
+    left: -340px;
 }
 
 .qaz__img {
@@ -599,9 +609,8 @@ a{
 
 .qaz2 {
     position: relative;
-    left: -150px;
+    left: -350px;
 }
-
 
 .customer-item-name{
     color: #1B1B1D;
@@ -641,6 +650,7 @@ a{
     font-family: Jost;
     font-weight: 800;
     line-height: 70px;
+    min-width: 500px;
 }
 
 
@@ -664,7 +674,7 @@ a{
 
 .rating-img{
     position: relative;
-    right: -149px;
+    right: -197px;
     top: -100px;
 }
 
@@ -675,14 +685,15 @@ a{
 .rating-star-review{
     margin-top: 30px;
 }
+
+.customers-item{
+    position: relative;
+    left: -200px;
+}
 /*====================================================================================================================*/
 
 .footer-container{
     display: flex;
-}
-
-.logo-locations{
-    margin-left: 100px;
 }
 
 .footer-paragraph{
@@ -720,7 +731,7 @@ a{
 }
 
 .contact{
-    margin-left: 300px
+    margin-left: 130px
 }
 
 .social-media-con{
@@ -816,7 +827,7 @@ a{
 .policy{
     display: flex;
     align-items: center;
-    margin-left: 610px;
+    margin-left: 635px;
     font-size: 22px;
     font-family: Jost;
     line-height: 30px;
@@ -837,50 +848,23 @@ a{
 }
 
 @media (min-width: 1700px) {
-    .order-img{
-        margin-left: 100px;
-        margin-right: 200px;
+    .best-list-item:not(:last-child){
+        margin-right: 50px;
     }
 
-    .best-selling-img1{
-        left: 190px;
+    .qaz {
+        position: relative;
+        left: -544px;
     }
 
-    .content-mobile-img2{
-        top: 170px;
-        right: 265px;
-    }
-
-    .instant-heading{
-        margin-right: 300px;
-        margin-left: 200px;
-    }
-
-    .instant-description{
-        margin-left: 200px;
-    }
-
-    .download-btn{
-        margin-left: 200px;
+    .qaz2 {
+        position: relative;
+        left: -500px;
     }
 
     .rating-img{
-        right: -545px;
-    }
-
-    .find-us{
-        margin-top: 30px;
-    }
-
-    .find-allowishus{
-        margin-top: 130px;
-    }
-
-    .logo-locations{
-        max-width: 850px;
-    }
-
-    .policy{
-        margin-left: 1040px;
+        position: relative;
+        right: -395px;
+        top: -100px;
     }
 }
