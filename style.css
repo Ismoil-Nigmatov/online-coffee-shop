@@ -843,7 +843,7 @@ a{
 @media only screen and (max-width: 415px) {
 
     .container{
-        width: 380px;
+        width: 396px;
         margin: 0 auto;
     }
 
@@ -960,18 +960,23 @@ a{
     }
 
     .order-head-desc{
-        width: 70%;
-        margin-left: 30px;
+        margin-left: 50px;
     }
 
     .order-description{
         width: 300px;
+        text-align: center;
     }
 
     .order-heading{
         width: 300px;
         font-size: 40px;
         line-height: 50px;
+        text-align: center;
+    }
+
+    .section-order-btn{
+        margin-left: 60px;
     }
 
     .order-img1{
@@ -1039,10 +1044,11 @@ a{
 
     .instant-description{
         margin-left: 15px;
+        text-align: center;
     }
 
     .download-btn{
-        margin-left: 10px;
+        margin-left: 50px;
     }
 
     .content-img{
@@ -1088,7 +1094,7 @@ a{
     .qaz__img{
         position: relative;
         left: 0px;
-        width: 380px;
+        width: 396px;
     }
 
     .footer-container{
