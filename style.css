@@ -935,8 +935,7 @@ a{
     }
 
     .explore-list-item{
-        width: 95%;
-        margin-left: 5px;
+        width: 100%;
         height: 500px;
     }
 
@@ -1003,7 +1002,7 @@ a{
 
     .best-list-item{
         margin-bottom: 80px;
-        width: 95%;
+        width: 100%;
     }
 
     .best-selling-description{
@@ -1059,6 +1058,10 @@ a{
         overflow-x: visible;
     }
 
+    .customer-img{
+        position: relative;
+        top: -10px;
+    }
     .section-customers-container{
         height: 1900px;
     }
@@ -1068,11 +1071,10 @@ a{
     }
 
 
-
     .customer-list-item{
         position: relative;
         left: 0px;
-        width: 95%;
+        width: 100%;
     }
 
     .customer-item-name{
