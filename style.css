@@ -830,16 +830,22 @@ a{
     margin-top: 0px;
 }
 
+.bl{
+    display: flex;
+    align-items: center;
+}
+
 @media only screen and (max-width: 500px) {
+
     .nav-list{
         display: none;
     }
     .menu{
         display: block;
         position: absolute;
-        right: -40%;
-        top:5.5%;
-        width: 75px;
+        left: 65%;
+        top: 45px;
+        width: 50px;
     }
 
     .section-hero-container{
@@ -847,71 +853,126 @@ a{
     }
 
     .logo{
-        margin-left: 50px;
-        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 0px;
     }
 
-    .hero-content{
-        margin-left: 100px;
+    .hero-heading{
+        font-size: 80px;
+        line-height: 100px;
+        margin-left: 10px;
+    }
+
+    .hero-img-heading{
+        position: relative;
+        left: 245px;
+        top: -70px;
+        width: 60px;
+    }
+
+    .hero-description{
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    .allowishus-img{
+        width: 350px;
+        margin-top: 100px;
+    }
+
+    .hero-rating{
+        position: relative;
+        top: -80px;
+        margin-left: 17px;
+    }
+
+    .countrywide-img{
+        position: absolute;
+        top: 700px;
+        left: 55%;
+        width: 70px;
+        height: 70px;
     }
 
     .explore-heading-desc{
         display: block;
+        padding-top: 20px;
+    }
+
+    .explore-heading{
+        font-size: 50px;
+        width: 50%;
+        margin-left: 75px;
+    }
+
+    .explore-description{
+        width: 50%;
+        margin-left: 75px;
     }
 
     .explore-list{
         display: block;
     }
 
-    .explore-description{
-        width: 100%;
+    .section-explore{
+        background: #EEEFF1;
+        height: 2100px;
     }
 
-    .section-explore{
-        width: 145%;
-        background: #EEEFF1; ;
+    .explore-list-item{
+        width: 75%;
+        margin-left: 5px;
+        height: 500px;
     }
 
     .list-item-heading{
+        padding-top: 20px;
         text-align: center;
+        margin-left: 0px;
     }
 
     .list-item-description{
         text-align: center;
     }
 
-    .list-item-order{
-        position: absolute;
-        top: 70%;
-        left: 40%;
-    }
-
-    .list-item-menu{
-        position: absolute;
-        top: 115%;
-        left: 40%;
-    }
-
-    .more{
-        position: absolute;
-        top: 160%;
-        left: 40%;
-    }
-
     .section-order-container{
+        margin-top: 0px;
         display: block;
+        height: 780px;
     }
 
     .order-img{
-        margin-top: 600px;
+        width: 400px;
     }
 
     .order-head-desc{
-        margin-left: 100px;
+        width: 65%;
+    }
+
+    .order-description{
+        width: 300px;
+    }
+
+    .order-heading{
+        width: 300px;
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .order-img1{
         display: none;
+    }
+
+    .section-order{
+        height: 800px;
+    }
+
+    .best-selling-container{
+        margin-top: 50px;
+    }
+
+    .best-selling-desc{
+        width: 55%;
     }
 
     .best-selling-list{
@@ -920,24 +981,20 @@ a{
 
     .best-list-item{
         margin-bottom: 80px;
+        width: 55%;
     }
 
     .best-selling-description{
         text-align: center;
-        width: 500px;
+        width: 375px;
     }
 
     .section-best-selling{
         width: 141%;
     }
 
-    .selling{
-        margin-left: 150px;
-    }
-
-    .item-heading{
-        /*TODO*/
-        margin-left: 100px;
+    .order-now-btn{
+        font-size: 15px;
     }
 
     .instant-img{
@@ -945,31 +1002,38 @@ a{
     }
 
     .section-instant-container{
-        margin-top: 300px;
+        height: 600px;
     }
 
-    .content-ellipse{
-        position: absolute;
-        left: 50px;
-        top: 370px;
+    .content{
+        position: static;
+        width: 70%;
     }
 
-    .content-mobile-img1{
-        position: absolute;
-        left: 60px;
-        top: 250px;
+    .instant-heading{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .instant-description{
+        margin-left: 15px;
+    }
+
+    .download-btn{
+        margin-left: 10px;
+    }
+
+    .content-img{
+        display: none;
     }
 
     .content-mobile-img2{
-        position: absolute;
-        left: 170px;
-        top: 260px;
+        width: 200px;
+        position: static;
     }
 
     .section-customers{
         overflow-x: visible;
-        margin-top: 800px;
-        width: 141%;
     }
 
     .section-customers-container{
@@ -981,39 +1045,26 @@ a{
     }
 
 
-    .position1{
-        position: relative;
-        left: 0px;
-        top: -400px;
-    }
-
-    .position2{
-        position: relative;
-        left: 0px;
-        top: -300px;
-    }
 
     .customer-list-item{
-        margin-left: 120px;
+        position: relative;
+        left: 0px;
+        width: 75%;
+    }
+
+    .customer-item-name{
+        margin-left: 20px;
+    }
+
+    .customer-item-description{
+        margin-left: 20px;
     }
 
     .qaz__img{
         position: relative;
         left: 0px;
-        width: 470px;
+        width: 363px;
     }
-
-    /*.logo-locations{*/
-    /*    display: block;*/
-    /*}*/
-
-    /*.contact{*/
-    /*    display: block;*/
-    /*}*/
-
-    /*.find-allowishus{*/
-    /*    display: block;*/
-    /*}*/
 
     .footer-container{
         display: block;
@@ -1024,19 +1075,66 @@ a{
     }
 
     .footer-img{
-        margin-top: 100px;
-        margin-left: 200px;
+        margin-right: 100px;
+    }
+    .footer-paragraph{
+        width: 250px;
+        margin-left: 75px;
     }
 
-    /*.footer-paragraph{*/
-    /*    margin-left: 190px;*/
-    /*}*/
+    .footer-heading{
+        width: 300px;
+        margin-left: 50px;
+        text-align: center;
+    }
 
-    /*.footer-heading{*/
-    /*    margin-left: 150px;*/
-    /*}*/
+    .contact{
+        margin-left: 0px;
+    }
 
-    .marg{
-        margin-left: 150px;
+    .find-btn{
+        margin-left: 100px;
+    }
+
+    .social-media{
+        margin-left: 20px;
+    }
+
+    .email-num{
+        margin-left: 0px;
+    }
+
+    .social-media-con{
+        width: 350px;
+    }
+
+    .social-media-logos{
+        margin-left: 20px;
+    }
+
+    .input-btn{
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .copyright{
+        display: block;
+    }
+
+    .policy{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .copyright-gray{
+        margin-top: 0px;
+    }
+
+    .bl{
+        display: block;
+    }
+
+    .copyright-black{
+        margin-bottom: 0px;
     }
 }
