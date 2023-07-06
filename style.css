@@ -1169,3 +1169,45 @@ a{
         margin-bottom: 0px;
     }
 }
+
+@media only screen and (min-width: 500px) and (max-width: 1250px){
+    /*.container{*/
+    /*    width: 1300px;*/
+    /*}*/
+
+    /*header{*/
+    /*    width: 1300px;*/
+    /*}*/
+
+    /*section{*/
+    /*    width: 1400px;*/
+    /*}*/
+    /*.logo{*/
+    /*    margin-left: 50px;*/
+    /*}*/
+
+    /*.hero-content{*/
+    /*    margin-left: 50px;*/
+    /*}*/
+
+    /*footer{*/
+    /*    width: 1400px;*/
+    /*}*/
+
+    .container{
+        width: 1400px;
+    }
+
+    header{
+        width: 1000px;
+        margin-left: 50px;
+    }
+
+    footer{
+        width: 1400px;
+    }
+
+    section{
+        width: 1400px;
+    }
+}
